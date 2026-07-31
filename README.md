@@ -11,7 +11,7 @@ Solo Spot Mapは、一人で入りやすいカフェ・喫煙所・漫画喫茶�
 
 ## Suggested Domain
 
-- `solospot.jp`
+- `https://syunnjack.github.io/solo-spot-map/`
 - `hitori-map.jp`
 - `smoke-cafe.jp`
 
