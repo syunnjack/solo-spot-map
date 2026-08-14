@@ -54,8 +54,8 @@ function App() {
       .filter((spot) => !text || `${spot.name} ${spot.area} ${spot.category} ${spot.tags.join(' ')} ${spot.note}`.toLowerCase().includes(text))
       .sort((a, b) => Number(b.noCharge) - Number(a.noCharge) || b.rating - a.rating || a.walk - b.walk)
   }, [area, filters, query])
-  const display = filtered.length ? filtered : spots
-  const best = display[0]
+  const display = filtered
+  const best = display[0] ?? spots[0]
 
   const submitPost = (event) => {
     event.preventDefault()
@@ -95,6 +95,7 @@ function App() {
       </section>
 
       <section className="content-grid">
+        {display.length === 0 && <p className="empty-state">条件に一致するスポットはありません。検索語や条件を変更してください。</p>}
         {display.map((spot) => (
           <article className="card" key={spot.id}>
             <div className="card-topline"><span>{spot.area}</span><span>{spot.category}</span></div>
