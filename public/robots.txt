@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://solo-spot-map.vercel.app/sitemap.xml
+Sitemap: https://solospot.jp/sitemap.xml
