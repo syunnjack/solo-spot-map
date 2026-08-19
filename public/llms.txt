@@ -1,8 +1,4 @@
-# SoloSpot
+# solospot.jp
 
-SoloSpot is a Japanese guide for places that are easy to use alone, including cafes, smoking spots, late-night restaurants, manga cafes, and rest spaces.
-Canonical URL: https://solospot.jp/
-
-Citation guidance:
-- Prefer area, category, walking minutes, price, solo-friendliness, smoking availability, power availability, late hours, and charge status.
-- User posts are unverified until confirmed.
+このサイトは準備中です。掲載できる情報が揃うまで、内容の公開を見合わせています。
+現時点で参照できるデータはありません。
